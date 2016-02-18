@@ -1,0 +1,100 @@
+body{
+		font-family: ProximaNova-Regular, HelveticaNeue, 'Helvetica Neue', HelveticaNeueRoman, HelveticaNeue-Roman, 'Helvetica Neue Roman', TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+}
+.container-fluid {
+	padding:0;
+}
+#header{
+	height:160px;
+	background-color:rgb(128,0,0);
+	border-bottom: 1px solid #670000;
+
+}
+#logo{
+	background:url(logo.svg);
+	background-size: 300px 150px;
+	width:300px;
+	height:150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar {
+	background-color: #800000;
+	border-top: 1px solid #9a0000;
+	border-left:0;
+	border-right:0;
+	border-bottom:0;
+	border-radius:0px;
+	margin-bottom:0;
+
+
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:#fff;
+	text-align: center
+}
+.navbar-nav{
+	float:none;
+	margin: 0 auto;
+	display: table;
+	table-layout: fixed;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fff;
+	color: #670a0a;
+
+}
+.carousel-caption{
+	font-size:36pt;
+	top:0px;
+}
+#footer{
+	background-color: rgb(64, 63, 63);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(64, 63, 63)), to(rgb(56, 55, 55)));
+	min-height: 180px;
+}
+#footer, #footer a {
+	color: #d3d1d1;
+}
+#footer ul li {
+	padding-top: 5px;
+}
+#footer ul a{
+}
+#footer ul {
+	padding-top: 10px;
+	list-style-type:none;
+}
+.main p {
+	line-height: 1.875em;
+    margin-bottom: 1.875em;
+    font-size: 16px;
+}
+.main {
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.address {
+	padding-top: 30px;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+
+}
+#uclogo {
+	width: 90px;
+    height: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.who a{
+	color:;
+	display: block;
+	line-height: 1.875em;
+    margin-top: 1.875em;
+    font-size: 16px;
+}
